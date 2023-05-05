@@ -1,9 +1,9 @@
 <template>
   <div id="index">
-    <div id="home">
+    <div id="home" style="height: 100vh;">
       <Home />
     </div>
-    <div id="about">
+    <div id="about" style="height: 100vh;">
       <About />
     </div>
     <Home />

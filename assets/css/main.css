@@ -14,10 +14,29 @@ a {
   transition: 0.4s;
 }
 
+.btn {
+  border-radius: 0;
+}
+
 @media (hover: hover) {
   a:hover {
     color: var(--color-hover);
   }
+}
+
+.title {
+  font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 4.3rem;
+    color: var(--color-background);
+    text-shadow: 2px 2px 0 var(--color-text-soft), 
+      2px -2px 0 var(--color-text-soft), 
+      -2px 2px 0 var(--color-text-soft), 
+      -2px -2px 0 var(--color-text-soft), 
+      2px 0px 0 var(--color-text-soft), 
+      0px 2px 0 var(--color-text-soft), 
+      -2px 0px 0 var(--color-text-soft), 
+      0px -2px 0 var(--color-text-soft);
 }
 /* 
 a,

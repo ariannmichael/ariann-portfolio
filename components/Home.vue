@@ -1,13 +1,15 @@
 <template>
-  <article class="hero">
-    <div>
-      <p>Hello there, my name is</p>
-      <h1>Ariann Michael</h1>
-      <h2>I build things for the web.</h2>
-      <h4>I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building enjoyable products.</h4>
-      <button class="btn btn-outline-light call-btn">Let's work together</button>
-    </div>
-  </article>
+  <b-row>
+    <article class="hero">
+      <div>
+        <p>Hello there, my name is</p>
+        <h1>Ariann Michael</h1>
+        <h2>I build things for the web.</h2>
+        <h4>I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building enjoyable products.</h4>
+        <button class="btn btn-outline-light call-btn">Let's work together</button>
+      </div>
+    </article>
+  </b-row>
 </template>
 
 <style scoped>
