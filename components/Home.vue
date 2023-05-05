@@ -1,0 +1,63 @@
+<template>
+  <article class="hero">
+    <div>
+      <p>Hello there, my name is</p>
+      <h1>Ariann Michael</h1>
+      <h2>I build things for the web.</h2>
+      <h4>I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building enjoyable products.</h4>
+      <button class="btn btn-outline-light call-btn">Let's work together</button>
+    </div>
+  </article>
+</template>
+
+<style scoped>
+.hero {
+  display: flex;
+  height: 50rem;
+  align-items: center;
+  padding-left: 4rem;
+}
+
+h1 {
+  color: var(--color-text-soft);
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 5.75rem;
+  line-height: 5.5rem;
+  text-shadow: 8px 6px 0px rgba(0,0,0,0.81);
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 4.375rem;
+  line-height: 4.5rem;
+  color: var(--color-text-mute); 
+}
+
+h4 {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 1.25rem;
+  width: 35rem;
+  color: var(--color-text-mute);
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
+
+p {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.125rem;
+  color: var(--color-text-white);
+}
+
+.call-btn {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 2rem;
+  width: 26rem;
+  height: 5rem;
+}
+</style>
