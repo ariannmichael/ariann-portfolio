@@ -9,11 +9,10 @@
       <nav>
         <div class="links">
           <NuxtLink :to="{path: '/', hash: '#about'}">About.</NuxtLink>
-          <!-- <NuxtLink to="/about">About.</NuxtLink> -->
-          <NuxtLink to="/contact">Experience.</NuxtLink>
-          <NuxtLink to="/contact">Work.</NuxtLink>
-          <NuxtLink to="/contact">Contact.</NuxtLink>
-          <button class="btn btn-outline-light resume-btn">Resume</button>
+          <NuxtLink :to="{path: '/', hash: '#experience'}">Experience.</NuxtLink>
+          <NuxtLink :to="{path: '/', hash: '#work'}">Work.</NuxtLink>
+          <NuxtLink :to="{path: '/', hash: '#contact'}">Contact.</NuxtLink>
+          <a href="/Ariann_Michael_CV.pdf" class="btn btn-outline-light resume-btn" download>Resume</a>
         </div>
       </nav>
     </div>
@@ -24,6 +23,9 @@
 header {
   border-bottom: 1px solid var(--color-text-white);
   background-image: url('/black.png');
+  position: sticky;
+  top: 0;
+  z-index: 10000;
 }
 .wrapper {
   display: flex;

@@ -6,7 +6,15 @@
     <div id="about" style="height: 100vh;">
       <About />
     </div>
-    <Home />
+    <div id="experience" style="height: 100vh;">
+      <Experience />
+    </div>
+    <div id="work" style="height: 100vh;">
+      <Home />
+    </div>
+    <div id="contact" style="height: 100vh;">
+      <Home />
+    </div>
   </div>
 
 </template>
