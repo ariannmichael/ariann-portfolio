@@ -23,7 +23,7 @@
           </ul>
          </p>
          <h5>
-          Skills: NextJs · UI · Front-end · React.js · CI/CD · Jenkins · Cypress · AWS
+          Skills: NextJs · UI · Front-end · Back-end · React.js · CI/CD · Jenkins · Cypress · AWS
          </h5>
         </div>
        </b-card-text>
@@ -152,6 +152,7 @@
  height: 50vh;
  background-color: var(--vt-c-black);
  border: 1px var(--vt-c-white) solid;
+ border-radius: 0 !important;
 }
 
 .card-text {

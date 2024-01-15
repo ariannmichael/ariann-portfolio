@@ -13,7 +13,7 @@
       <Home />
     </div>
     <div id="contact" style="height: 100vh;">
-      <Home />
+      <Contact />
     </div>
   </div>
 
@@ -21,6 +21,9 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { BootstrapVueIcons } from 'bootstrap-vue'
+
+Vue.use(BootstrapVueIcons)
 
 export default Vue.extend({
   name: 'IndexPage'
