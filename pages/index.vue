@@ -10,7 +10,7 @@
       <Experience />
     </div>
     <div id="work" style="height: 100vh;">
-      <Home />
+      <Projects />
     </div>
     <div id="contact" style="height: 100vh;">
       <Contact />

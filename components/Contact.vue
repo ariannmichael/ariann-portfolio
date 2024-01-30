@@ -6,7 +6,10 @@
      <h1>Hello There!</h1>
     </b-row>
     <b-row class="container">
-     <b-col lg="10">
+      <b-col lg="10">
+       <b-alert v-model="emailSent" variant="success" dismissible>
+         E-mail sent!
+       </b-alert>
       <b-form @submit="onSubmit" v-if="show">
        <b-row>
         <b-col>
@@ -36,7 +39,9 @@
         </b-col>
        </b-row>
        <b-row class="send-btn-container">
-        <button class="btn btn-outline-light send-btn">Send</button>
+        <button class="btn btn-outline-light send-btn">
+          Send
+        </button>
        </b-row>
       </b-form>
      </b-col>
@@ -62,17 +67,35 @@ export default {
  data() {
   return {
    form: {
-    email: '',
     name: '',
+    email: '',
     message: ''
    },
-   show: true
+   loading: false,
+   show: true,
+   emailSent: false
   }
  },
  methods: {
   onSubmit(event) {
-   event.preventDefault()
-   alert(JSON.stringify(this.form))
+    event.preventDefault();
+
+    const body = JSON.stringify({
+      name: this.form.name,
+      email: this.form.email,
+      message: this.form.message
+    });
+
+    fetch('http://localhost:3000/api/contact', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body
+    }).then((response) => {
+      this.emailSent = true;
+    })
   }
  }
 }
@@ -112,6 +135,7 @@ h1 {
 .send-btn-container {
  display: block;
  margin-top: 2rem;
+ margin-bottom: 2rem;
 }
 
 .icons {
@@ -130,5 +154,9 @@ h1 {
   font-size: 2.6rem;
   width: 11rem;
   height: 5rem;
+}
+
+button:focus {
+  background-color: var(--vt-c-green);
 }
 </style>
