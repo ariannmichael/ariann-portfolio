@@ -6,6 +6,6 @@ export class ProjectService {
  }
 
  getProject(index: number): IProject {
-  return json.projects[index];
+  return json.projects[index-1];
  }
 }

@@ -5,6 +5,6 @@ interface IProject {
  description: string,
  client: string,
  stack: string,
- initialDate: string,
+ startDate: string,
  endDate: string
 }

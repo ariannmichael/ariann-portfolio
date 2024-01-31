@@ -5,7 +5,9 @@
   </b-row>
   <b-row v-for="index in rowSize" :key="index" id="projects-section" class="projects-section">
    <b-col v-for="project in projectsByRow(index)" :key="project.name">
-    <b-card :img-src="getImgUrl(project.imgs[0])"></b-card>
+    <NuxtLink to="/projects/1">
+      <b-card :img-src="getImgUrl(project.imgs[0])"></b-card>
+    </NuxtLink>
    </b-col>
   </b-row>
  </div>

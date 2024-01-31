@@ -13,7 +13,7 @@
 } */
 
 .the-navbar {
-  max-width: 95%;
+  max-width: 100%;
   margin: 0 auto;
   padding-top: 1rem;
 }

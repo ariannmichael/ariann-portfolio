@@ -13,11 +13,11 @@
     "/afya/kanban.png",
     "/afya/fases.png"
    ],
-   "description": "• Maintained and implemented new features for web applications, including the largest medical school platform in Brazil, catering to physicians across all courses, including Ph.D.\n• Developed the live platform and real-time chat from the ground up using a Kanban Jira-like platform, employing JavaScript, React, HTML, and CSS on the front end.\n• Create a Kanban-like platform for the audiovisual team to track the videos, scripts, and recording steps. Having drag-and-drop cards, editable columns, and milestones.\n• Created the GraphRequest layers and architecture on the backend using Node.js, NoSQL, MongoDB, GraphQL, Java, WebSockets, and RESTful HTTP Applications.\n• Utilized Kanban and Jira for day-to-day management throughout the work period. ",
+   "description": "• Maintained and implemented new features for web applications, including the largest medical school platform in Brazil, catering to physicians across all courses, including Ph.D.\n\n• Developed the live platform and real-time chat from the ground up using a Kanban Jira-like platform, employing JavaScript, React, HTML, and CSS on the front end.\n\n• Create a Kanban-like platform for the audiovisual team to track the videos, scripts, and recording steps. Having drag-and-drop cards, editable columns, and milestones.\n\n• Created the GraphRequest layers and architecture on the backend using Node.js, NoSQL, MongoDB, GraphQL, Java, WebSockets, and RESTful HTTP Applications.\n\n• Utilized Kanban and Jira for day-to-day management throughout the work period. ",
    "client": "Afya",
    "stack": "React / NodeJS / MongoDB / AWS",
-   "initialDate": "",
-   "endDate": ""
+   "startDate": "April 2021",
+   "endDate": "April 2022"
   },
   {
    "id": 2,
@@ -34,116 +34,11 @@
     "/stefanini/completo.png",
     "/stefanini/rating.png"
    ],
-   "description": "• Updated all frontend layouts of a mentoring website for Stefanini's employees, incorporating new features like contact buttons, language selection, mentor selection, and time availability using React with Typescript, HTML, and CSS.\n• On the backend, implemented functionalities for sending emails, querying language selection, mentor selection, time availability, list of mentorships, and ratings for each mentor and mentorship using Java, Spring Boot, MySQL, and RESTful HTTP Applications.\n• Assisted customers as needed, addressing their questions and suggestions.\n• Utilized Kanban and Jira for day-to-day management throughout the work period.",
-   "client": "Stefanin",
+   "description": "• Updated all frontend layouts of a mentoring website for Stefanini's employees, incorporating new features like contact buttons, language selection, mentor selection, and time availability using React with Typescript, HTML, and CSS.\n\n• On the backend, implemented functionalities for sending emails, querying language selection, mentor selection, time availability, list of mentorships, and ratings for each mentor and mentorship using Java, Spring Boot, MySQL, and RESTful HTTP Applications.\n\n• Assisted customers as needed, addressing their questions and suggestions.\n\n• Utilized Kanban and Jira for day-to-day management throughout the work period.",
+   "client": "Stefanini",
    "stack": "React / Java / Spring / MySQL",
-   "initialDate": "",
-   "endDate": ""
-  },
-  {
-   "id": 3,
-   "name": "Stefanini",
-   "imgs": [
-    "/stefanini/landpage.png",
-    "/stefanini/contact.png",
-    "/stefanini/perfil.png",
-    "/stefanini/language.png",
-    "/stefanini/categoria.png",
-    "/stefanini/mentor.png",
-    "/stefanini/horario.png",
-    "/stefanini/finalizar.png",
-    "/stefanini/completo.png",
-    "/stefanini/rating.png"
-   ],
-   "description": "• Updated all frontend layouts of a mentoring website for Stefanini's employees, incorporating new features like contact buttons, language selection, mentor selection, and time availability using React with Typescript, HTML, and CSS.\n• On the backend, implemented functionalities for sending emails, querying language selection, mentor selection, time availability, list of mentorships, and ratings for each mentor and mentorship using Java, Spring Boot, MySQL, and RESTful HTTP Applications.\n• Assisted customers as needed, addressing their questions and suggestions.\n• Utilized Kanban and Jira for day-to-day management throughout the work period.",
-   "client": "Stefanin",
-   "stack": "React / Java / Spring / MySQL",
-   "initialDate": "",
-   "endDate": ""
-  },
-  {
-   "id": 4,
-   "name": "Stefanini",
-   "imgs": [
-    "/stefanini/landpage.png",
-    "/stefanini/contact.png",
-    "/stefanini/perfil.png",
-    "/stefanini/language.png",
-    "/stefanini/categoria.png",
-    "/stefanini/mentor.png",
-    "/stefanini/horario.png",
-    "/stefanini/finalizar.png",
-    "/stefanini/completo.png",
-    "/stefanini/rating.png"
-   ],
-   "description": "• Updated all frontend layouts of a mentoring website for Stefanini's employees, incorporating new features like contact buttons, language selection, mentor selection, and time availability using React with Typescript, HTML, and CSS.\n• On the backend, implemented functionalities for sending emails, querying language selection, mentor selection, time availability, list of mentorships, and ratings for each mentor and mentorship using Java, Spring Boot, MySQL, and RESTful HTTP Applications.\n• Assisted customers as needed, addressing their questions and suggestions.\n• Utilized Kanban and Jira for day-to-day management throughout the work period.",
-   "client": "Stefanin",
-   "stack": "React / Java / Spring / MySQL",
-   "initialDate": "",
-   "endDate": ""
-  },
-  {
-   "id": 5,
-   "name": "Stefanini",
-   "imgs": [
-    "/stefanini/landpage.png",
-    "/stefanini/contact.png",
-    "/stefanini/perfil.png",
-    "/stefanini/language.png",
-    "/stefanini/categoria.png",
-    "/stefanini/mentor.png",
-    "/stefanini/horario.png",
-    "/stefanini/finalizar.png",
-    "/stefanini/completo.png",
-    "/stefanini/rating.png"
-   ],
-   "description": "• Updated all frontend layouts of a mentoring website for Stefanini's employees, incorporating new features like contact buttons, language selection, mentor selection, and time availability using React with Typescript, HTML, and CSS.\n• On the backend, implemented functionalities for sending emails, querying language selection, mentor selection, time availability, list of mentorships, and ratings for each mentor and mentorship using Java, Spring Boot, MySQL, and RESTful HTTP Applications.\n• Assisted customers as needed, addressing their questions and suggestions.\n• Utilized Kanban and Jira for day-to-day management throughout the work period.",
-   "client": "Stefanin",
-   "stack": "React / Java / Spring / MySQL",
-   "initialDate": "",
-   "endDate": ""
-  },
-  {
-   "id": 6,
-   "name": "Stefanini",
-   "imgs": [
-    "/stefanini/landpage.png",
-    "/stefanini/contact.png",
-    "/stefanini/perfil.png",
-    "/stefanini/language.png",
-    "/stefanini/categoria.png",
-    "/stefanini/mentor.png",
-    "/stefanini/horario.png",
-    "/stefanini/finalizar.png",
-    "/stefanini/completo.png",
-    "/stefanini/rating.png"
-   ],
-   "description": "• Updated all frontend layouts of a mentoring website for Stefanini's employees, incorporating new features like contact buttons, language selection, mentor selection, and time availability using React with Typescript, HTML, and CSS.\n• On the backend, implemented functionalities for sending emails, querying language selection, mentor selection, time availability, list of mentorships, and ratings for each mentor and mentorship using Java, Spring Boot, MySQL, and RESTful HTTP Applications.\n• Assisted customers as needed, addressing their questions and suggestions.\n• Utilized Kanban and Jira for day-to-day management throughout the work period.",
-   "client": "Stefanin",
-   "stack": "React / Java / Spring / MySQL",
-   "initialDate": "",
-   "endDate": ""
-  },
-  {
-   "id": 7,
-   "name": "Stefanini",
-   "imgs": [
-    "/stefanini/landpage.png",
-    "/stefanini/contact.png",
-    "/stefanini/perfil.png",
-    "/stefanini/language.png",
-    "/stefanini/categoria.png",
-    "/stefanini/mentor.png",
-    "/stefanini/horario.png",
-    "/stefanini/finalizar.png",
-    "/stefanini/completo.png",
-    "/stefanini/rating.png"
-   ],
-   "description": "• Updated all frontend layouts of a mentoring website for Stefanini's employees, incorporating new features like contact buttons, language selection, mentor selection, and time availability using React with Typescript, HTML, and CSS.\n• On the backend, implemented functionalities for sending emails, querying language selection, mentor selection, time availability, list of mentorships, and ratings for each mentor and mentorship using Java, Spring Boot, MySQL, and RESTful HTTP Applications.\n• Assisted customers as needed, addressing their questions and suggestions.\n• Utilized Kanban and Jira for day-to-day management throughout the work period.",
-   "client": "Stefanin",
-   "stack": "React / Java / Spring / MySQL",
-   "initialDate": "",
-   "endDate": ""
+   "startDate": "March 2020",
+   "endDate": "April 2021"
   }
  ]
 }

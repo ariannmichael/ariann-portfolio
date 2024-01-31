@@ -22,6 +22,7 @@
 <style scoped>
 header {
   border-bottom: 1px solid var(--color-text-white);
+  border-width: 95%;
   background-image: url('/black.png');
   position: sticky;
   top: 0;
@@ -31,6 +32,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 2rem;
   margin-bottom: 1.2rem;
 }
 
