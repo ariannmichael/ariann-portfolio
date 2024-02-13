@@ -4,7 +4,7 @@
    <h1 class="title">SELECTED PROJECTS</h1>
   </b-row>
   <b-row v-for="index in rowSize" :key="index" id="projects-section" class="projects-section">
-   <b-col v-for="project in projectsByRow(index)" :key="project.name">
+   <b-col v-for="project in projectsByRow(index)" :key="project.name" class="project-col">
     <NuxtLink to="/projects/1">
       <b-card :img-src="getImgUrl(project.imgs[0])"></b-card>
     </NuxtLink>
@@ -35,8 +35,8 @@
    },
    methods: {
     projectsByRow(index) {
-      const start = index - 1;
-      const end = index + 1;
+      const start = (index - 1) * 2;
+      const end = index * 2;
       return this.projects.slice(start, end);
     },
     getImgUrl(img) {
@@ -69,5 +69,9 @@
 .card-img {
  width: 100%;
  height: 25.5rem;
+}
+
+.project-col {
+  width: 5rem;
 }
 </style>

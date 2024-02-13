@@ -105,7 +105,7 @@ export default {
 .hero {
  text-align: center;
  display: flex;
- height: 40rem;
+ height: 100vh;
  align-items: center;
  padding-left: 4rem;
 }

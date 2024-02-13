@@ -12,7 +12,7 @@
     <div id="work" style="height: 100vh;">
       <Work />
     </div>
-    <div id="contact" style="height: 100vh;">
+    <div id="contact" class="contact">
       <Contact />
     </div>
   </div>
@@ -32,4 +32,9 @@ export default Vue.extend({
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.contact {
+  height: 100vh;
+  margin-top: 50rem;
+}
 </style>
