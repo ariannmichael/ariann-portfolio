@@ -14,13 +14,13 @@
        <b-row>
         <b-col>
          <b-form-group id="input-group-1" label-for="input-1">
-          <b-form-input id="input-1" size="lg" v-model="form.name" placeholder="Your Name" required></b-form-input>
+          <b-form-input id="input-1" size="lg" v-model="form.name" placeholder="Name" required></b-form-input>
          </b-form-group>
         </b-col>
         
         <b-col>
          <b-form-group id="input-group-2" label-for="input-2">
-          <b-form-input id="input-2" size="lg" v-model="form.email" type="email" placeholder="Email Address" required></b-form-input>
+          <b-form-input id="input-2" size="lg" v-model="form.email" type="email" placeholder="Email" required></b-form-input>
          </b-form-group>
         </b-col>
        </b-row>
@@ -29,7 +29,7 @@
          <b-form-group id="input-group-3" label-for="input-3">
           <b-form-textarea
              id="input-3"
-             placeholder="Your Message"
+             placeholder="Message"
              size="lg"
              rows="8"
              max-rows="8"
@@ -158,5 +158,25 @@ h1 {
 
 button:focus {
   background-color: var(--vt-c-green);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-left: 2rem;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  .icons {
+    display: flex;
+    margin-top: 2rem;
+    padding-left: 2rem;
+  }
+
+  .icons a {
+    margin-right: 2rem;
+  }
 }
 </style>
