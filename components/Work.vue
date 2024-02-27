@@ -76,4 +76,15 @@
 .project-col {
   width: 5rem;
 }
+
+@media (max-width: 768px) {
+  .card {
+    width: 10.5rem;
+    height: 10rem;
+  }
+
+  .card-img {
+    height: 100%;
+  }
+}
 </style>

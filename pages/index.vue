@@ -42,5 +42,9 @@ export default Vue.extend({
   .work {
     margin-top: 80rem;
   }
+
+  .contact {
+    margin-top: 10rem;
+  }
 }
 </style>
