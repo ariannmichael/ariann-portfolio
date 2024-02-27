@@ -6,14 +6,14 @@
             <img src="/ariann-logo.svg" alt="Logo" />
           </NuxtLink>
       </div>
-      <nav>
+      <nav class="nav-link">
         <div class="links">
           <NuxtLink :to="{path: '/', hash: '#about'}">About.</NuxtLink>
           <NuxtLink :to="{path: '/', hash: '#experience'}">Experience.</NuxtLink>
           <NuxtLink :to="{path: '/', hash: '#work'}">Work.</NuxtLink>
           <NuxtLink :to="{path: '/', hash: '#contact'}">Contact.</NuxtLink>
-          <a href="/Ariann_Michael_CV.pdf" class="btn btn-outline-light resume-btn" download>Resume</a>
         </div>
+        <a href="/Ariann_Michael_CV.pdf" class="btn btn-outline-light resume-btn" download>Resume</a>
       </nav>
     </div>
   </header>
@@ -46,6 +46,13 @@ nav {
   display: flex;
   justify-content: space-between;
   line-height: 2.625rem;
+  width: 100%;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.625rem;
 }
 
 .resume-btn {
@@ -53,6 +60,19 @@ nav {
   font-weight: 800;
   font-size: 1.2rem;
   line-height: 1.688rem;
+  margin-left: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .links {
+    display: none;
+  }
+
+  .nav-link {
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 3rem;
+  }
 }
 </style>
 

@@ -9,7 +9,7 @@
     <div id="experience" style="height: 100vh;">
       <Experience />
     </div>
-    <div id="work" style="height: 100vh;">
+    <div id="work" class="work" style="height: 100vh;">
       <Work />
     </div>
     <div id="contact" class="contact">
@@ -36,5 +36,11 @@ export default Vue.extend({
 .contact {
   height: 100vh;
   margin-top: 50rem;
+}
+
+@media (max-width: 768px) {
+  .work {
+    margin-top: 80rem;
+  }
 }
 </style>

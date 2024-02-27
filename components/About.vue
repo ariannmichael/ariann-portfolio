@@ -6,13 +6,13 @@
     <b-row id="about-section" class="about-section">
       <b-col>
         <p class="about-text">
-          Hello! My name is Ariann and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
-          Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
-          I also recently launched a course that covers everything you need to build a web app with the Spotify API using Node & React.
-          Here are a few technologies I’ve been working with recently:
+          Hello! My name is Ariann and I enjoy creating things from web to games. I have been working as a web developer for 5 years and I have been working with a variety of clients, I’ve had the privilege of working at a start-up, a huge corporation, and an open-source project. 
+          All of this experience has given me a good understanding of the full life cycle of a project. I also have a great passion for learning and I am always looking for new technologies to work with.
+          If you are looking for a friendly, passionate, and highly skilled software developer to join your team, please don't hesitate to get in touch. I look forward to hearing from you!
+          Here are a few technologies I’ve been working with recently:                                  
         </p>
       </b-col>
-      <b-col>
+      <b-col class="about-image">
         <div class="relative-position">
           <div class="img-size color-block-red"></div>
           <div class="img-size color-block-green"></div>
@@ -26,7 +26,7 @@
         </div>
       </b-col>
     </b-row>
-    <b-row id="about-tech">
+    <b-row class="about-tech">
       <b-col>
         <h3>Frontend / Backend</h3>
         <p class="tech-p">Javascript / React / NextJS / Angular2+ / Vue / NuxtJS / NodeJS / Java / Spring / Python / Flask</p>
@@ -97,5 +97,31 @@
     color: var(--color-text-white);
     padding: 2rem;
     text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .about-section {
+      display: block;
+    }
+
+    .about-text {
+      line-height: 2rem;
+      padding-right: 3rem;
+      font-size: 1.3rem;
+    }
+
+    .img-size {
+      width: 15rem;
+      height: 16rem;
+    }
+
+    .about-tech {
+      margin-top: 20rem;
+      padding-right: 1.6rem;
+    }
+
+    .about-image {
+      margin-top: 4rem;
+    }
   }
 </style>

@@ -4,8 +4,8 @@
       <div>
         <p>Hello there, my name is</p>
         <h1>Ariann Michael</h1>
-        <h2>I build things for the web.</h2>
-        <h4>I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building enjoyable products.</h4>
+        <h2>Name it, and I can build it.</h2>
+        <h4>I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Gamedev in my free time.</h4>
         <NuxtLink :to="{path: '/', hash: '#contact'}">
           <button class="btn btn-outline-light call-btn">Let's work together</button>
         </NuxtLink>
@@ -63,5 +63,39 @@ p {
   font-size: 2rem;
   width: 26rem;
   height: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    padding-right: 2rem;
+    padding-left: 0;
+  }
+
+  h1 {
+    font-size: 4.375rem;
+    line-height: 4.5rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 100%;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .call-btn {
+    font-size: 1.5rem;
+    width: 19rem;
+    height: 4rem;
+  }
 }
 </style>

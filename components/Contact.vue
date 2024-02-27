@@ -119,7 +119,7 @@ h1 {
  letter-spacing: 0.32rem;
  text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.81);
  width: 100%;
- margin-top: 22rem;
+ margin-top: 12rem;
 }
 
 .container {
