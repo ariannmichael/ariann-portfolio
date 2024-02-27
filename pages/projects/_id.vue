@@ -131,4 +131,30 @@
  margin-top: 1rem;
  padding-left: 1rem;
 }
+
+@media (max-width: 768px) {
+  .project-wrapper {
+    margin: 1rem 4rem;
+  }
+
+  .carousel-wrapper {
+    width: 20rem;
+  }
+
+  .project-title {
+    font-size: 3rem;
+  }
+
+  .project-text {
+    font-size: 1rem;
+  }
+
+  .detail-title {
+    font-size: 2.4rem;
+  }
+
+  .detail-text {
+    font-size: 1.4rem;
+  }
+}
 </style>
