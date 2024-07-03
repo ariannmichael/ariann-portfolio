@@ -15,7 +15,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/ariann-logo.svg' }
     ]
   },
-  
+
   output: 'export',
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -55,5 +55,22 @@ export default {
   
   bootstrapVue: {
     icons: false  
-  }
+  },
+  
+  generate: {
+    fallback: true,
+    async routes() {
+      let routes
+      const contentRoutes = await _getContentRoutes()
+
+      async function _getContentRoutes() {
+        const { $content } = require('@nuxt/content')
+        const files = await $content({ deep: true }).only(['path']).fetch()
+        return files.map((file) => file.path.replace('/articles/', ''))
+      }
+
+      return routes
+    },
+  },
+
 }
