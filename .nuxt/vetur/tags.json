@@ -1,0 +1,23 @@
+{
+  "About": {
+    "description": "Auto imported from components/About.vue"
+  },
+  "Contact": {
+    "description": "Auto imported from components/Contact.vue"
+  },
+  "Experience": {
+    "description": "Auto imported from components/Experience.vue"
+  },
+  "Home": {
+    "description": "Auto imported from components/Home.vue"
+  },
+  "TheNavbar": {
+    "description": "Auto imported from components/TheNavbar.vue"
+  },
+  "Work": {
+    "description": "Auto imported from components/Work.vue"
+  },
+  "ModelIProject": {
+    "description": "Auto imported from components/Model/IProject.ts"
+  }
+}

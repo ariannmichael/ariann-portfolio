@@ -15,6 +15,8 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/ariann-logo.svg' }
     ]
   },
+  
+  output: 'export',
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
