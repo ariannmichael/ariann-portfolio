@@ -1,3 +1,5 @@
 {
+    "buildCommand": "nuxt generate",
+    "outputDirectory": "dist",
     "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
