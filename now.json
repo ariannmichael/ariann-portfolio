@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "ariann-portfolio",
+  "builds": [
+    {
+      "src": "nuxt.config.js",
+      "use": "@nuxtjs/vercel-builder",
+      "config": {
+        "serverFiles": [
+          "server.js"
+        ]
+      }
+    }
+  ]
+}
