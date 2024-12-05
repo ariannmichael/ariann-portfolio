@@ -3,14 +3,12 @@
     "name": "projects-id",
     "path": "/projects/:id?",
     "component": "/Users/ariannmichael/Documents/Personal/ariann-portfolio/pages/projects/_id.vue",
-    "chunkName": "pages/projects/_id",
-    "_name": "_85cd38a8"
+    "chunkName": "pages/projects/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/ariannmichael/Documents/Personal/ariann-portfolio/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_5a875f4a"
+    "chunkName": "pages/index"
   }
 ]
