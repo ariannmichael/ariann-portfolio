@@ -1,10 +1,10 @@
-export { default as About } from '../../components/About.vue'
-export { default as Contact } from '../../components/Contact.vue'
-export { default as Experience } from '../../components/Experience.vue'
-export { default as Home } from '../../components/Home.vue'
-export { default as TheNavbar } from '../../components/TheNavbar.vue'
-export { default as Work } from '../../components/Work.vue'
-export { default as ModelIProject } from '../../components/Model/IProject.ts'
+export const About = () => import('../../components/About.vue' /* webpackChunkName: "components/about" */).then(c => wrapFunctional(c.default || c))
+export const Contact = () => import('../../components/Contact.vue' /* webpackChunkName: "components/contact" */).then(c => wrapFunctional(c.default || c))
+export const Experience = () => import('../../components/Experience.vue' /* webpackChunkName: "components/experience" */).then(c => wrapFunctional(c.default || c))
+export const Home = () => import('../../components/Home.vue' /* webpackChunkName: "components/home" */).then(c => wrapFunctional(c.default || c))
+export const TheNavbar = () => import('../../components/TheNavbar.vue' /* webpackChunkName: "components/the-navbar" */).then(c => wrapFunctional(c.default || c))
+export const Work = () => import('../../components/Work.vue' /* webpackChunkName: "components/work" */).then(c => wrapFunctional(c.default || c))
+export const ModelIProject = () => import('../../components/Model/IProject.ts' /* webpackChunkName: "components/model-i-project" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
