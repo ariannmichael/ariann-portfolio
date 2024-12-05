@@ -55,5 +55,10 @@ export default {
   
   bootstrapVue: {
     icons: false  
+  },
+
+  target: 'static',
+  router: {
+    base: 'ariann-portfolio'
   }
 }
