@@ -1,0 +1,96 @@
+{
+ "projects": [
+  {
+   "id": 1,
+   "name": "Afya",
+   "link": "https://www.afya.com.br/",
+   "imgs": [
+    "/afya/rating.png",
+    "/afya/live.png",
+    "/afya/gostou.png",
+    "/afya/transmissoes.png",
+    "/afya/esteira.png",
+    "/afya/nova_esteira.png",
+    "/afya/kanban.png",
+    "/afya/fases.png"
+   ],
+   "description": "• Maintained and implemented new features for web applications, including the largest medical school platform in Brazil, catering to physicians across all courses, including Ph.D.\n\n• Developed the live platform and real-time chat from the ground up using a Kanban Jira-like platform, employing JavaScript, React, HTML, and CSS on the front end.\n\n• Create a Kanban-like platform for the audiovisual team to track the videos, scripts, and recording steps. Having drag-and-drop cards, editable columns, and milestones.\n\n• Created the GraphRequest layers and architecture on the backend using Node.js, NoSQL, MongoDB, GraphQL, Java, WebSockets, and RESTful HTTP Applications.\n\n• Utilized Kanban and Jira for day-to-day management throughout the work period. ",
+   "client": "Afya",
+   "stack": "React / NodeJS / MongoDB / AWS",
+   "startDate": "April 2021",
+   "endDate": "April 2022"
+  },
+  {
+   "id": 2,
+   "name": "Star Wars Saga",
+   "link": "https://ariannmichael.github.io/starwars-saga/",
+   "imgs": [
+    "/star-wars/list.png",
+    "/star-wars/filters.png",
+    "/star-wars/search.png",
+    "/star-wars/character1.png",
+    "/star-wars/character2.png"
+   ],
+   "description": "• Personal project to list, filter and see details about characters from Star Wars",
+   "client": "Personal",
+   "stack": "Angular2+ / SASS / Figma",
+   "startDate": "December 2019",
+   "endDate": "December 2019"
+  },
+  {
+   "id": 3,
+   "name": "Stefanini",
+   "link": "https://mentoring.stefanini.io/#/login",
+   "imgs": [
+    "/stefanini/landpage.png",
+    "/stefanini/contact.png",
+    "/stefanini/perfil.png",
+    "/stefanini/language.png",
+    "/stefanini/categoria.png",
+    "/stefanini/mentor.png",
+    "/stefanini/horario.png",
+    "/stefanini/finalizar.png",
+    "/stefanini/completo.png",
+    "/stefanini/rating.png"
+   ],
+   "description": "• Updated all frontend layouts of a mentoring website for Stefanini's employees, incorporating new features like contact buttons, language selection, mentor selection, and time availability using React with Typescript, HTML, and CSS.\n\n• On the backend, implemented functionalities for sending emails, querying language selection, mentor selection, time availability, list of mentorships, and ratings for each mentor and mentorship using Java, Spring Boot, MySQL, and RESTful HTTP Applications.\n\n• Assisted customers as needed, addressing their questions and suggestions.\n\n• Utilized Kanban and Jira for day-to-day management throughout the work period.",
+   "client": "Stefanini",
+   "stack": "React / Java / Spring / MySQL",
+   "startDate": "March 2020",
+   "endDate": "April 2021"
+  },
+  {
+   "id": 4,
+   "name": "GoDaddy",
+   "link": "https://www.godaddy.com/",
+   "imgs": [
+    "/godaddy/profile.png",
+    "/godaddy/address.png",
+    "/godaddy/messages.png",
+    "/godaddy/payments.png",
+    "/godaddy/add_payment.png"
+   ],
+   "description": "• Contracted by Godaddy as an Eng - Software Development III, collaborated with the account team.\n• Developed and maintained payment methods, subscriptions, receipts, and renewals using JavaScript, React with Typescript, Go, MongoDB, NextJS, Node.js, and HTML/CSS.\n• Created new pages, including the user profile, and implemented verifications for various countries' payment types.\n• Implemented Jest and Cypress tests to ensure code coverage.\n• Integrated projects into the infrastructure using AWS, Github actions, Git, HTTP Restful, and Jenkins.\n• Followed Scrum and Agile practices, utilizing Kanban and Jira for day-to-day management.",
+   "client": "GoDaddy",
+   "stack": "React / NextJS / NodeJS / AWS / Github Actions / Go",
+   "startDate": "April 2022",
+   "endDate": "Ongoing"
+  },
+  {
+   "id": 5,
+   "name": "Lead Me To The Light",
+   "link": "https://ariannmichael.itch.io/lead-me-to-the-light",
+   "imgs": [
+    "/lmttl/title.png",
+    "/lmttl/moon.png",
+    "/lmttl/trees.png",
+    "/lmttl/house.png"
+   ],
+   "description": "• Personal game made for the Godot Wild Jam #64.",
+   "client": "Godot Wild Jam #64",
+   "stack": "Godot / GDScript",
+   "startDate": "December 8th 2023",
+   "endDate": "December 17th 2023"
+  }
+ ]
+}
